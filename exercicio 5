@@ -1,0 +1,9 @@
+
+A = float(input("Digite o valor A: "))
+B = float(input("Digite o valor B: "))
+C = float(input("Digite o valor C: "))
+
+numeros = [A, B, C]
+numeros.sort()
+
+print(f"Valores em ordem crescente: {numeros[0]}, {numeros[1]}, {numeros[2]}")

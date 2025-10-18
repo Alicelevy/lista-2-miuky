@@ -1,0 +1,9 @@
+
+numero = int(input("Digite um número inteiro: "))
+
+if numero < 0:
+    modulo = numero * -1
+else:
+    modulo = numero
+
+print(f"O módulo do número é: {modulo}")

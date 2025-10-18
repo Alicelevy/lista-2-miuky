@@ -1,0 +1,14 @@
+# 4) Tipo de triângulo
+A = float(input("Digite o lado A: "))
+B = float(input("Digite o lado B: "))
+C = float(input("Digite o lado C: "))
+
+if A < B + C and B < A + C and C < A + B:
+    if A == B == C:
+        print("Triângulo EQUILÁTERO")
+    elif A == B or A == C or B == C:
+        print("Triângulo ISÓSCELES")
+    else:
+        print("Triângulo ESCALENO")
+else:
+    print("Os lados fornecidos NÃO formam um triângulo")
